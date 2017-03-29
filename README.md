@@ -1,6 +1,6 @@
 # slim-bold-jekyll
 
-A slim Jekyll theme
+A slim Jekyll theme inspired by [minima](https://github.com/jekyll/minima).
 
 ## Installation
 
