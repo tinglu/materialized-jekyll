@@ -1,19 +1,19 @@
-# slim-bold-jekyll
+# materialized-jekyll
 
-A slim Jekyll theme inspired by [minima](https://github.com/jekyll/minima).
+A materialized Jekyll theme built on top of [minima](https://github.com/jekyll/minima) and inspired by [materialize](https://github.com/dogfalo/materialize/).
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "slim-bold-jekyll"
+gem "materialized-jekyll"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: slim-bold-jekyll
+theme: materialized-jekyll
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install slim-bold-jekyll
+    $ gem install materialized-jekyll
 
 ## Usage
 
@@ -34,7 +34,7 @@ Or install it yourself as:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/tinglu/slim-bold-jekyll/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tinglu/materialized-jekyll/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 
