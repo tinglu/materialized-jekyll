@@ -9,9 +9,12 @@
 }
 
 .site-title {
+  font-family: $base-heading-font-family;
   font-size: 26px;
   font-weight: $base-font-weight;
   line-height: 56px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   margin-bottom: 0;
   float: left;
 
@@ -84,8 +87,6 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
@@ -105,8 +106,9 @@
 }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  font-size: 12px;
   color: $grey-color;
+  letter-spacing: .6px;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -117,6 +119,10 @@
   padding-left: $spacing-unit / 2;
 }
 
+.tagline {
+  font-size: 14px;
+  text-transform: uppercase;
+}
 
 /**
  * Page content
@@ -148,13 +154,16 @@
   font-size: 24px;
 }
 
-
-
 /**
  * Posts
  */
 .post-header {
   margin-bottom: $spacing-unit;
+}
+
+.post-date {
+  letter-spacing: 1px;
+  color: $grey-color-dark;
 }
 
 .post-title {
