@@ -1,24 +1,26 @@
 # materialized-jekyll
 
-A materialized Jekyll theme built on top of [minima](https://github.com/jekyll/minima) and inspired by [materialize](https://github.com/dogfalo/materialize/).
+A materialized Jekyll theme built on top of [minima](https://github.com/jekyll/minima) and inspired by [materialize-sass](https://github.com/mkhairi/materialize-sass).
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "materialized-jekyll"
+gem "materialized"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: materialized-jekyll
+theme: materialized
 ```
 
 And then execute:
 
     $ bundle
+    $ cd _sass
+    $ npm install
 
 Or install it yourself as:
 

@@ -4,9 +4,9 @@ Gem::Specification.new do |spec|
   spec.name          = "materialized-jekyll"
   spec.version       = "0.1.0"
   spec.authors       = ["tinglu"]
-  spec.email         = ["lisalu729@gmail.com"]
+  spec.email         = ["lisatinglu@gmail.com"]
 
-  spec.summary       = %q{This is a Jekyll theme with slim and blod design.}
+  spec.summary       = %q{This is a Jekyll theme built on top of minima and inspired by materialize-sass.}
   spec.homepage      = "https://github.com/tinglu/materialized-jekyll"
   spec.license       = "MIT"
 

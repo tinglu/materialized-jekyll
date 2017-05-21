@@ -12,15 +12,21 @@
   font-family: $base-heading-font-family;
   font-size: 26px;
   font-weight: $base-font-weight;
-  line-height: 56px;
+  line-height: inherit;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 0;
   float: left;
+  color: white;
+
+  &,
+  &:hover {
+    text-decoration: none;
+  }
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: white;
   }
 }
 
@@ -103,6 +109,10 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+
+  li {
+    display: block;
+  }
 }
 
 .footer-col-wrapper {
@@ -168,7 +178,6 @@
 
 .post-title {
   font-size: 42px;
-  line-height: 1;
 
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -179,7 +188,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    font-size: 32px;
+    font-size: 28px;
 
     @include media-query($on-laptop) {
       font-size: 28px;
@@ -187,7 +196,7 @@
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 22px;
 
     @include media-query($on-laptop) {
       font-size: 22px;
@@ -195,7 +204,7 @@
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 18px;
 
     @include media-query($on-laptop) {
       font-size: 18px;

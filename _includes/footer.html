@@ -1,6 +1,6 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="container">
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
@@ -13,31 +13,12 @@
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           {% endif %}
         </ul>
-
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-
-          {% if site.codepen_username %}
-          <li>
-            {% include icon-codepen.html username=site.codepen_username %}
-          </li>
-          {% endif %}
-        </ul>
       </div>
     </div>
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+        Copyright © {{ 'now' | date: "%Y" }} {{ site.title | escape }}. All Rights Reserved. |
         Theme by <a href="https://github.com/tinglu/materialized-jekyll">Materialized Jekyll</a> developed by <a href="https://github.com/tinglu">TING LU</a>
       </div>
     </div>
@@ -45,3 +26,6 @@
   </div>
 
 </footer>
+
+<script !src="{{ "/assets/node_modules/jquery/dist/jquery.min.js" | relative_url }}"></script>
+<script !src="{{ "/assets/node_modules/materialize-css/js/materialize.min.js" | relative_url }}"></script>

@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-heading-font-family;
+  font: $heading-font-weight-bold #{$base-font-size}/#{$base-line-height} $base-heading-font-family;
 }
 
 /**
@@ -81,15 +81,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $link-color;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
   &:hover {
-    color: $text-color;
     text-decoration: underline;
   }
 }
@@ -112,6 +107,7 @@ blockquote {
  */
 
 pre, code {
+  background-color: #f6f8fa;
   font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
@@ -120,7 +116,6 @@ pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f6f8fa;
   border-radius: 3px;
 }
 
@@ -130,24 +125,8 @@ pre > code {
   padding-left: 0;
 }
 
-/**
- * Wrapper
- */
-.wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
-  @extend %clearfix;
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    max-width: calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-  }
+.highlight {
+  overflow-x: auto;
 }
 
 /**
@@ -169,4 +148,21 @@ pre > code {
   path {
     fill: $grey-color;
   }
+}
+
+// List
+ul:not(.browser-default) li {
+  list-style-type: disc;
+}
+
+// Screen reader
+.sreen-reader {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }

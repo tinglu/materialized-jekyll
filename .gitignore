@@ -7,3 +7,6 @@ _site/
 Gemfile.lock
 
 .idea
+
+# node modules
+_sass/node_modules
