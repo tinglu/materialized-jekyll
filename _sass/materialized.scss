@@ -31,8 +31,10 @@ $on-laptop:        800px !default;
   }
 }
 
+// Import vendors
+@import "vendor/solarised";
+
 // Import partials.
 @import "materialized/base",
-"materialized/layout",
-"materialized/syntax-highlighting"
+"materialized/layout"
 ;

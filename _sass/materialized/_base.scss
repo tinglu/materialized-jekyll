@@ -110,27 +110,24 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
-  font-size: 15px;
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
 
-code {
-  padding: 1px 5px;
+pre, code {
+  font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
 
 pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
 
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
+pre > code {
+  border: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 /**
