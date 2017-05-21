@@ -7,13 +7,13 @@ A materialized Jekyll theme built on top of [minima](https://github.com/jekyll/m
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "materialized"
+gem "materialized-jekyll"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: materialized
+theme: materialized-jekyll
 ```
 
 And then execute:
