@@ -8,8 +8,8 @@ layout: default
 
     {{ content }}
 
+    {% for post in site.posts %}
     <article class="post-list">
-        {% for post in site.posts %}
         <header>
             <small class="post-date">{{ post.date | date: "%Y %-B %d" }}</small>
 
@@ -19,9 +19,14 @@ layout: default
         </header>
         <div class="post-content">
             {{ post.excerpt }}
+
+            <div class="right-align">
+                <a class="more-link" href="{{ post.url | relative_url }}">View more</a>
+            </div>
         </div>
 
-        {% endfor %}
     </article>
+    <div class="divider"></div>
+    {% endfor %}
 
 </div>
