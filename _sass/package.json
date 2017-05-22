@@ -1,6 +1,6 @@
 {
   "name": "materialized-jekyll",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "This is a Jekyll theme built on top of minima and inspired by materialize-sass.",
   "main": "main.js",
   "scripts": {
