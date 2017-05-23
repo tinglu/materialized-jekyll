@@ -7,3 +7,10 @@ _site/
 Gemfile.lock
 
 .idea
+
+_sass/node_modules
+
+# Dummy posts and site stuff
+_config.yml
+_posts
+index.md
