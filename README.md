@@ -2,6 +2,11 @@
 
 A materialized Jekyll theme built on top of [minima](https://github.com/jekyll/minima) and inspired by [materialize-sass](https://github.com/mkhairi/materialize-sass).
 
+This theme is still under development.
+
+I created the theme mainly because [my own personal blog](lisalu.com.au) needs to freshen up.
+
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
