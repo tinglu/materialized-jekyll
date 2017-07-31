@@ -12,7 +12,7 @@ I created the theme mainly because [my own personal blog](lisalu.com.au) needs t
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "materialized-jekyll"
+gem "materialized-jekyll", :path => "/path/to/materialized-jekyll" #This theme is not supported by GitHub Pages, so you can only test locally; or copy this into your project.
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
